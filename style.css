@@ -7,7 +7,7 @@
 
 .nav-bar{
  height: 60px;
- width: 1540px;
+width: 100%;
  background-color: black;
  color: white;
   display: flex;
@@ -123,7 +123,7 @@ span{
 .panel{
  height: 40px;
  background-color:#222f3d;
- width: 1540px;
+ width: 100%;
  display: flex;
  justify-content: flex-start;
  align-items: center;
@@ -150,4 +150,61 @@ color: white;
   justify-content: flex-end;
   margin-left: 900px;
    font-size: 0.8rem;
+}
+
+.hero-section{
+  background-image:url(images/dab2e00c579835e47b06b38a00110164.jpg) ;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg{
+  height: 40px;
+  width: 80%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  
+  margin-bottom: 20px;
+}
+
+.content{
+  height: 800px;
+  width: 100%;
+  display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+  height: 350px;
+  width: 23%;
+  border: 2px solid black;
+    padding: 20px 0px 15px;
+    background-color: white;
+
+
+}
+.box-img{
+ 
+  background-size: cover;
+  height:300px ;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+margin-bottom: 1rem;
+
+
+
+
+}
+.box-content{
+  margin-left: 1rem;
+margin-right: 1rem;
+font-size: 10px;
 }
