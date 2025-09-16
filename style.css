@@ -22,10 +22,11 @@ navlogo{
  background-color: black;
  color: black;
  background-image:url(images/amazon-logo-black-background-xb9pdemosnjfz9ej.jpeg);
- height: 45px;
+ height: 43px;
  width: 140px;
- background-size: cover;
-padding-left: 0;
+ background-size: contain;
+ margin-bottom: 40px;
+
 
 }
 
@@ -175,6 +176,7 @@ color: white;
 }
 
 .content{
+ margin-top: 15px;
   height: 800px;
   width: 100%;
   display: flex;
@@ -183,10 +185,10 @@ color: white;
     flex-wrap: wrap;
 }
 .box{
-  height: 350px;
+  height: 380px;
   width: 23%;
   border: 2px solid black;
-    padding: 20px 0px 15px;
+    padding: 0px 0px 5px;
     background-color: white;
 
 
@@ -204,7 +206,108 @@ margin-bottom: 1rem;
 
 }
 .box-content{
+  margin-top: 10px;
   margin-left: 1rem;
 margin-right: 1rem;
 font-size: 10px;
+margin-bottom: 5PX;
+}
+
+
+.foot{
+  font-size: 15px;
+ align-items: center;
+}
+
+.footer{
+width: 100%;
+background-color: #222f3d;
+margin-top: 15px;
+}
+.foot1{
+  height: 45px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #284461;
+  display: flex;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0px;
+
+}
+
+.foot2{
+ display: flex;
+  background-color: #19293a;
+  color: white;
+  height: 400px;
+  justify-content: space-evenly;p}
+
+
+ul{
+  margin-top: 40px;
+}
+
+.foot2 a{
+  display: block;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.foot3{
+  height: 70px;
+   background-color: #021932;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:  0.8px solid white ;
+}
+.logo{
+ background-color: black;
+ color: black;
+ background-image:url(images/amazon-logo.jpg);
+ height: 35px;
+ width: 100px;
+ background-size: contain;
+ margin-bottom: 40px;
+background-repeat: no-repeat;
+display: flex;
+margin-top: 40px;
+padding-top: 10px;
+
+}
+
+
+.foot4{
+
+  height: 60px;
+  color: white;
+   background-color: #021932;
+ 
+}
+.pages {
+  padding-top: 20px;
+ 
+  display: flex;
+  height: 20px;
+  font-size: 0.8rem;
+  justify-content: space-evenly;
+  text-align: center;
+
+ color: rgb(244, 243, 242);
+
+}
+.copyright{
+  margin-top: 10px;
+   display: flex;
+color: rgb(242, 242, 242);
+  height: 20pxpx;
+  font-size: 0.9rem;
+  text-align: center;
+  justify-content: space-evenly;
+ 
 }
